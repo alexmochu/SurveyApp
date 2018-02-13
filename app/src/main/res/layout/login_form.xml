@@ -11,6 +11,16 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         >
+        <TextView
+            android:layout_above="@id/username_email_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginBottom="10dp"
+            android:textSize="35sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
         <EditText
             android:id="@+id/username_email_box"
             android:layout_width="match_parent"
