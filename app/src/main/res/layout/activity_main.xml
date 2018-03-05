@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/app_headline"
             android:gravity="center_horizontal"
-            android:text="SurveyApp"
+            android:text="Get the Answers that you need"
             android:layout_marginBottom="10dp"
             android:textSize="40sp"
             android:textStyle="bold"/>
@@ -24,7 +24,7 @@
             android:id="@+id/app_headline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Companion app for a Researcher"
+            android:text="We get answers for questions daily. Get the feedback you need with the leading survey app."
             android:layout_centerInParent="true"
             android:gravity="center"
             android:textSize="19sp"
@@ -37,6 +37,7 @@
             android:layout_below="@id/app_headline">
 
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
@@ -48,6 +49,7 @@
 
 
             <Button
+                android:id="@+id/register_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Register"
